@@ -1,0 +1,51 @@
+html {
+	font-family:Helvetica;
+	text-align:center;
+
+}
+#header {
+	background-image:url('../images/the-flatiron-building.png');
+	background-size:100% 100%; /*Allow auto adjustment of image*/
+	background-repeat:none; /*Stopping picture starting again*/
+}
+#header h1 {
+	color:white;
+	font-size:70px;
+	font-weight:bold;
+}
+#header li {
+	font-size:18px;
+	list-style:none; /*Remove bullet points*/
+	padding-top:5px; /*Spreading list items out vertically*/
+	padding-right:35px; /*Adjusting to center after removing bullet points*/
+}
+#header a {
+	color:white; /*Link colour needs to be set to white*/
+}
+p {
+	font-size:14px;
+}
+#our-process {
+	font-size:32px;
+	font-weight:bold;
+}
+.keywords {
+	font-size:23px;
+	font-weight:bold;
+}
+#new-york {
+	color:white;
+	font-size:23px;
+	font-weight:bold;
+	background-image:url('../images/the-flatiron-building.png');
+	background-size:100%;
+}
+#lower-links {
+	color:white;
+	font-size:11px;
+	text-align:left;
+	background-color:dimgray;
+	}
+#lower-links a {
+	color:white;
+}
